@@ -8,16 +8,20 @@ A database index is a separate, sorted data structure that lets the database fin
 
 ## What is inside
 
-- `01-what-an-index-is.md` the book-index analogy and what a B-tree does.
-- `02-the-cost-of-indexes.md` the write and storage price you pay for faster reads.
-- `03-composite-indexes-and-column-order.md` multi-column indexes and why order matters.
-- `04-covering-indexes.md` serving a whole query from the index alone.
-- `05-when-not-to-index.md` cases where an index does not help or hurts.
-- `06-checking-with-explain.md` using EXPLAIN to see if an index is used.
+- [01-what-an-index-is.md](01-what-an-index-is.md) the book-index analogy and what a B-tree does.
+- [02-the-cost-of-indexes.md](02-the-cost-of-indexes.md) the write and storage price you pay for faster reads.
+- [03-composite-indexes-and-column-order.md](03-composite-indexes-and-column-order.md) multi-column indexes and why order matters.
+- [04-covering-indexes.md](04-covering-indexes.md) serving a whole query from the index alone.
+- [05-when-not-to-index.md](05-when-not-to-index.md) cases where an index does not help or hurts.
+- [06-checking-with-explain.md](06-checking-with-explain.md) using EXPLAIN to see if an index is used.
 
 ## The stance
 
 An index is a tradeoff, not free speed. This reference treats indexing as a deliberate choice driven by the queries you run, measured with EXPLAIN, not guessed at by adding an index to every column.
+
+## More
+
+Part of a catalog of single-file browser tools and plain-language references, all MIT licensed and dependency-free: [0xelitesystem.github.io](https://0xelitesystem.github.io/). Built by [elitesystem.ai](https://elitesystem.ai).
 
 ## License
 
